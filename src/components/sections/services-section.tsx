@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Темы
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что охватывают задачи</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Дифференциальное исчисление",
+              description: "Производные, экстремумы функций, исследование на монотонность и выпуклость",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Логарифмы и показатели",
+              description: "Логарифмические и показательные уравнения, ОДЗ, потенцирование",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Тригонометрия",
+              description: "Тригонометрические уравнения и неравенства, формулы, единичная окружность",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Формат ЕГЭ 2025",
+              description: "Задачи соответствуют актуальным заданиям профильного уровня — №7, 13 и 15",
               direction: "bottom",
             },
           ].map((service, i) => (
